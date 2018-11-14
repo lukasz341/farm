@@ -1,0 +1,243 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: auto;
+    padding: 0;
+   
+    
+}
+
+.background img {
+    margin: 0;
+    padding:  0;
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    
+    
+}
+
+.play {
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+    left: 40%;
+
+}
+
+
+.play button {
+    padding: 20px;
+    background: red;
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+
+}
+
+.play a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+button img {
+    margin: 0;
+    padding:  0;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.background a {
+    max-width: 12%;
+    height: auto;
+}
+#chicken {
+    position: absolute;
+    bottom: 10%;
+    left: 7%; 
+    cursor: pointer;
+    transition: 1s;
+}
+#cow {
+    position: absolute;
+    bottom: 30%;
+    right: 20%; 
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+#dog {
+    position: absolute;
+    bottom: 50%;
+    right: 20%; 
+    cursor: pointer;
+    transition: 1s;
+    max-width: 10%;
+}
+
+
+#cat {
+    position: absolute;
+    bottom: 45%;
+    left: 40%; 
+    cursor: pointer;
+    transition: 1s;
+    max-width: 10%;
+}
+
+
+
+#pig {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#horse {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+#rooster {
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+#duck {
+    position: absolute;
+    bottom: 10%;
+    left: 25%; 
+    cursor: pointer;
+    transition: 1s;
+}
+
+#farmer {
+    position: absolute;
+    bottom: 30%;
+    right: 8%; 
+    cursor: pointer;
+    transition: 1s;
+    max-width: 10%;
+    
+}
+
+#tractor {
+    position: absolute;
+    bottom: 30%;
+    left: 10%; 
+    cursor: pointer;
+    transition: 5s;
+    max-width: 20%;
+    
+}
+
+#tree {
+    position: absolute;
+    bottom: 10%;
+    left: 2%; 
+    transition: 2s;
+  
+    
+}
+
+
+#tree1 {
+    position: absolute;
+    bottom: 10%;
+    left: 48%; 
+    transition: 2s;
+  
+    
+}
+
+
+
+
+.horse {
+    transform: rotate(20deg) translate(-30px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+.chicken {
+    transform: rotate(20deg) translate(40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+.cow {
+    transform: rotate(20deg) translate(-40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+
+
+.rooster {
+    transform: rotate(10deg) translate(-20px, -10px)  ;
+    
+     transition: 1s; 
+}
+
+.pig {
+    transform: rotate(10deg) translate(-20px, -10px)  ;
+    
+     transition: 1s; 
+}
+
+.duck {
+    transform: rotate(20deg) translate(40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+.farmer {
+    transform: translate(0px, -30px)  ;
+    
+     transition: 1s; 
+}
+
+.tractor {
+    transform: translate(100%, 0px)  ;   
+     transition: 5s; 
+}
+
+.dog {
+    transform: translate(-150%, 20%);   
+     transition: 3s; 
+}
+
+.cat {
+    transform: translate(-1%, -180%);
+    
+     transition: 3s; 
+}
+
+
+
+
